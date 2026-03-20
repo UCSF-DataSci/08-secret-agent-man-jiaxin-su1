@@ -1,8 +1,8 @@
 {
   "killer": "Dr. Raymond Blake",
   "weapon": "Syringe",
-  "time_of_death": "9:15 PM",
-  "reasoning": "Dr. Blake's alibi conflicts with the keycard logs. He claims to have been in the ER all evening, but the logs show he entered Floor 4 at 9:25 PM, which is after the time of death. The cause of death was a lethal injection of potassium chloride, which matches the syringe found in the sharps container on Floor 4. Witness observations indicate that Dr. Voss was drafting an email at 9:15 PM, which aligns with the time of death.",
+  "time_of_death": "9:30 PM",
+  "reasoning": "Dr. Blake's alibi conflicts with the keycard logs and witness observations. He claims to have been in the ER all evening, but the logs show he entered Floor 4 at 9:25 PM, which is after the time of death observed by Nurse Patel at 9:30 PM. The syringe found in the sharps container matches the cause of death (lethal injection of potassium chloride). Dr. Blake had a motive due to being confronted by Dr. Voss about falsifying data, which could ruin his career.",
   "transcript": [
     {
       "action": "tool",
