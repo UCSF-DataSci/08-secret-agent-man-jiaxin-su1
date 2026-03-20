@@ -2,7 +2,7 @@
   "killer": "Dr. Raymond Blake",
   "weapon": "Syringe",
   "time_of_death": "9:15 PM",
-  "reasoning": "Dr. Blake's alibi conflicts with the keycard logs, as he claims to have been in the ER all evening but was seen entering Floor 4 at 9:25 PM. The cause of death was a lethal injection of potassium chloride, which matches the syringe found in the sharps container on Floor 4. The time of death is determined by Nurse Patel's observation of someone in a white coat near Room 401 at 9:30 PM, and Dr. Voss's computer shows she was drafting an email at 9:15 PM, indicating she was alive at that time.",
+  "reasoning": "Dr. Blake's alibi conflicts with the keycard logs. He claims to have been in the ER all evening, but the logs show he entered Floor 4 at 9:25 PM, which is after the time of death. The cause of death was a lethal injection of potassium chloride, which matches the syringe found in the sharps container on Floor 4. Witness observations indicate that Dr. Voss was drafting an email at 9:15 PM, which aligns with the time of death.",
   "transcript": [
     {
       "action": "tool",
@@ -13,8 +13,8 @@
       "detail": "Retrieved room map"
     },
     {
-      "action": "tool",
-      "detail": "Retrieved evidence and keycard logs"
+      "action": "interview",
+      "detail": "Got statement from Victor James"
     },
     {
       "action": "tool",
@@ -22,19 +22,19 @@
     },
     {
       "action": "interview",
-      "detail": "Got statement from Dr. Maria Santos"
-    },
-    {
-      "action": "interview",
       "detail": "Got statement from Nurse Margaret Chen"
     },
     {
       "action": "interview",
-      "detail": "Got statement from Dr. Raymond Blake"
+      "detail": "Got statement from Dr. Maria Santos"
+    },
+    {
+      "action": "tool",
+      "detail": "Retrieved evidence and keycard logs"
     },
     {
       "action": "interview",
-      "detail": "Got statement from Victor James"
+      "detail": "Got statement from Dr. Raymond Blake"
     }
   ]
 }

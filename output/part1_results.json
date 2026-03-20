@@ -1,13 +1,15 @@
 {
   "killer": "Larry",
   "weapon": "Antler trophy",
-  "motive": "Financial gain from the treasure map and old coins",
+  "motive": "Jealousy over Marcus's discovery of valuable coins and the grandfather's map.",
   "evidence": [
-    "Larry's damp hiking boots with fresh mud contradict his claim of not going outside after dinner.",
-    "The antler trophy was wiped clean of fingerprints, indicating it was used as a weapon and cleaned afterward.",
-    "Marcus's last text at 10:28pm suggests a confrontation over ownership of the treasure map, which Larry wanted.",
-    "The unlocked back door indicates someone entered or exited the cabin without the others knowing, likely Larry after the murder.",
-    "The notepad with Marcus's handwriting indicates he was aware of Larry's interest in the treasure map and had warned him about it."
+    "The antler trophy on the mantel has been wiped clean \u2014 no fingerprints at all, which is suspicious since Marcus handled it regularly.",
+    "A small scuff mark on the hardwood floor near the fireplace, consistent with a brief struggle.",
+    "Marcus's last text at 10:28pm to an unknown number: 'I told you, it's mine now. Deal with it.'",
+    "Larry's hiking boots are damp and have fresh mud on them, though he claims he didn't go outside after dinner.",
+    "Boot prints in the mud outside lead from the back porch around to the side of the cabin and back, indicating Larry's presence outside.",
+    "A small smear on the hallway carpet near Larry's room \u2014 could be mud or something darker, suggesting he was involved in a struggle.",
+    "The inside-out rubber glove, indicating a hasty removal after the crime."
   ],
   "transcript": [
     {
@@ -52,83 +54,147 @@
     },
     {
       "action": "response",
-      "detail": "Sofia Reyes: I was outside on the back porch taking long-exposure photos of the snowfall. I had my camera with me"
+      "detail": "Diana Blackwood: I was in my room, reading a book, and I didn't sleep well that night. I went to bed around midnight "
     },
     {
       "action": "response",
-      "detail": "Diana Blackwood: I was in my room, reading a rather dull legal thriller, until I fell asleep around midnight. I certa"
-    },
-    {
-      "action": "response",
-      "detail": "Tom Chen: I was playing cards with Larry in my room until about 9:15pm. After that, I video-called my wife, an"
+      "detail": "Sofia Reyes: I was outside on the back porch, taking long-exposure photos of the snowfall. I had my camera with m"
     },
     {
       "action": "response",
       "detail": "Larry Hoffman: Oh, I was just at home, you know, winding down after a long day. I played some cards with Tom\u2014really"
     },
     {
-      "action": "interrogate",
-      "detail": "Asked Diana Blackwood: Diana, your lipstick was found on a coffee mug in the kitchen. Can you explain h"
-    },
-    {
-      "action": "interrogate",
-      "detail": "Asked Larry Hoffman: Larry, your hiking boots were found damp with fresh mud. You claimed you didn't "
+      "action": "response",
+      "detail": "Tom Chen: I was playing cards with Larry until about 9:15 PM, and then I video-called my wife from my room. Th"
     },
     {
       "action": "interrogate",
-      "detail": "Asked Tom Chen: Tom, you mentioned you were playing cards with Larry until 9:15pm. Can you confi"
+      "detail": "Asked Diana Blackwood: What do you know about the coffee mugs found in the kitchen? One has your lipsti"
     },
     {
       "action": "interrogate",
-      "detail": "Asked Sofia Reyes: Sofia, you said you were outside taking photos. Can you tell me what you capture"
-    },
-    {
-      "action": "response",
-      "detail": "Diana Blackwood: I assure you, I was in my room reading. If my lipstick was found on a mug, it must have been from a "
-    },
-    {
-      "action": "response",
-      "detail": "Larry Hoffman: Oh, uh, those boots! You know how it is\u2014sometimes I just forget to clean them after a hike. I might "
-    },
-    {
-      "action": "response",
-      "detail": "Sofia Reyes: I was focused on capturing the snowfall, so I have a series of long-exposure shots from around that "
-    },
-    {
-      "action": "response",
-      "detail": "Tom Chen: I can confirm that I was focused on our card game with Larry until about 9:15pm, and I didn't hear a"
+      "detail": "Asked Larry Hoffman: Your hiking boots were found muddy and damp. You claimed you didn't go outside a"
     },
     {
       "action": "interrogate",
-      "detail": "Asked Diana Blackwood: Diana, can you clarify why you were not in the living room if you were having a "
+      "detail": "Asked Tom Chen: You mentioned playing cards with Larry. Did you notice anything unusual about hi"
     },
     {
       "action": "interrogate",
-      "detail": "Asked Larry Hoffman: Larry, you mentioned forgetting to clean your boots, but the mud is fresh. Can y"
+      "detail": "Asked Sofia Reyes: You said you were outside taking photos. Did you see anyone else outside during "
+    },
+    {
+      "action": "response",
+      "detail": "Sofia Reyes: No, I didn't see anyone else outside while I was taking photos. I was pretty focused on my camera an"
+    },
+    {
+      "action": "response",
+      "detail": "Diana Blackwood: I know that I had a cup of coffee earlier in the evening, but I hardly think that\u2019s relevant. It\u2019s a"
+    },
+    {
+      "action": "response",
+      "detail": "Tom Chen: Yes, I did notice that Larry seemed unusually agitated during our card game. He kept bringing up the"
+    },
+    {
+      "action": "response",
+      "detail": "Larry Hoffman: Oh, uh, those boots! You know how it is\u2014sometimes I just forget to clean them after a hike. I mean, "
     },
     {
       "action": "interrogate",
-      "detail": "Asked Tom Chen: Tom, you said you were on a video call after 9:15pm. Can you provide any proof o"
+      "detail": "Asked Diana Blackwood: What do you know about the text Marcus sent at 10:28 PM to an unknown number?"
     },
     {
       "action": "interrogate",
-      "detail": "Asked Sofia Reyes: Sofia, can you show me the photos from your camera? I want to see if they captur"
+      "detail": "Asked Larry Hoffman: You mentioned you went to bed at 9:30 PM, but your boots are muddy. Can you expl"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Tom Chen: You said you were on a video call from 9:20 PM to 10:45 PM. Can anyone confirm t"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Sofia Reyes: What was the content of the photos you took during the time of the murder?"
     },
     {
       "action": "response",
-      "detail": "Sofia Reyes: Sure, I can show you the photos. I was out on the back porch taking long-exposure shots of the snowf"
+      "detail": "Tom Chen: Yes, my wife can confirm the call. We were discussing the reunion and catching up, and I remember he"
     },
     {
       "action": "response",
-      "detail": "Tom Chen: Yes, I can provide proof of the call. My phone records will show that I was on a video call with my "
+      "detail": "Sofia Reyes: I was focused on capturing the snowfall and the way the light reflected off the snow. The photos are"
     },
     {
       "action": "response",
-      "detail": "Larry Hoffman: Oh, uh, the mud! Right, well, you see, I might have stepped outside briefly to get some fresh air af"
+      "detail": "Diana Blackwood: I have no idea what that text contained. I was in my room, engrossed in a book, completely unaware o"
     },
     {
       "action": "response",
-      "detail": "Diana Blackwood: I was in my room, engrossed in a book, as I mentioned. If I had been in the living room, I would hav"
+      "detail": "Larry Hoffman: Oh, uh, the muddy boots! Right, well, you see, I was out in the yard earlier, just, you know, checki"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Diana Blackwood: You mentioned you were in your room reading. Did you hear anything unusual from "
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Larry Hoffman: You said you were just checking on things outside. What exactly were you checkin"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Tom Chen: You mentioned hearing commotion during your call. Can you describe what you hear"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Sofia Reyes: Can you explain why your camera was aimed at the tree line? Were you expecting t"
+    },
+    {
+      "action": "response",
+      "detail": "Sofia Reyes: I was just trying to capture the beauty of the snowfall and the way it interacts with the trees. I f"
+    },
+    {
+      "action": "response",
+      "detail": "Tom Chen: Yes, I heard raised voices coming from downstairs, which was unusual. It sounded like there was some"
+    },
+    {
+      "action": "response",
+      "detail": "Larry Hoffman: Oh, uh, you know, just making sure everything was in order. I mean, it was a bit late, and I thought"
+    },
+    {
+      "action": "response",
+      "detail": "Diana Blackwood: I was quite engrossed in my book, so I can't say I heard anything particularly unusual. However, I d"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Diana Blackwood: You mentioned hearing a heated argument between Larry and Marcus. Can you elabor"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Larry Hoffman: You said you were checking for raccoons outside. Did you see anything unusual wh"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Tom Chen: You mentioned the argument sounded tense. Did you recognize what it was about?"
+    },
+    {
+      "action": "interrogate",
+      "detail": "Asked Sofia Reyes: Did you notice anyone else outside while you were taking photos, especially arou"
+    },
+    {
+      "action": "response",
+      "detail": "Sofia Reyes: No, I didn't see anyone else outside while I was taking photos. I was pretty focused on getting the "
+    },
+    {
+      "action": "response",
+      "detail": "Tom Chen: I couldn't make out the exact words, but it definitely sounded heated. Given the circumstances, I wo"
+    },
+    {
+      "action": "response",
+      "detail": "Larry Hoffman: Oh, uh, no, not really! Just the usual rustling in the bushes, you know how it is. But, um, I did se"
+    },
+    {
+      "action": "response",
+      "detail": "Diana Blackwood: I heard raised voices coming from the living room around 9pm. It was clear they were arguing about s"
     }
   ]
 }
